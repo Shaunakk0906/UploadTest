@@ -1,0 +1,75 @@
+p,
+li {
+  color: orange;
+}
+div, button, #my-id {
+  color: blue;
+  font-family: Arial;
+} 
+/*Changing the background of the divs*/
+#first {
+  background-color: red;
+  width: auto;
+  font-family: Arial;
+}
+
+#second {
+  background-color: #19A5BD;
+  width: 200px;
+  font-family: Times New Roman;
+}
+
+#third {
+  background-color: rgb(253, 143, 89);
+  width: 50%;
+  font-family: Courier;
+}
+
+div {
+  margin: 10px;
+  padding: 5px;
+}
+
+/*Adding a border*/
+h2 {
+    border-style: dashed;
+    border-width: 3px;
+    border-left-width: 10px;
+    border-right-width: 10px;
+    border-color: yellow;
+}
+/*Rounded border*/
+p{
+	color:black;
+}
+ #rcorners1 {
+            border-radius: 25px;
+            background: #ff6666;
+            padding: 20px;
+            width: 200px;
+            height: 150px;
+         }
+         #rcorners2 {
+            border-radius: 25px;
+            border: 2px solid #ffff00;
+            padding: 20px; 
+            width: 200px;
+            height: 150px;
+         }
+         #rcorners3 {
+            border-radius: 25px;
+            background: url(/css/images/logo.png);
+            background-position: left top;
+            background-repeat: repeat;
+            padding: 20px; 
+            width: 200px;
+            height: 150px;
+         }
+/*Aligning text*/
+h4 {
+  text-align: left;
+}
+
+h3 {
+  text-align: right;
+}

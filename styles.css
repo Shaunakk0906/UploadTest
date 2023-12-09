@@ -1,0 +1,84 @@
+/* styles.css */
+
+/*
+font-family: 'Bebas Neue', sans-serif;
+font-family: 'Pixelify Sans', cursive;
+*/
+body{
+	color: #ff6699;
+	background-color:  #ffff99;
+	font-family: 'Pixelify Sans', cursive;
+}
+/*changing the fonts*/
+h1{
+	font-family: 'Pixelify Sans', cursive;
+}
+span{
+	font-family: 'Bebas Neue', sans-serif;
+}
+
+/*creating a border and changing fonts*/
+th{
+	border: 3px solid #89a7d6;
+	padding: 20px;
+	font-family: 'Bebas Neue', sans-serif;
+}
+td{
+	border: 5px solid #bf80ff;
+	padding: 5px;
+}
+table{
+		background-color: #bbff99;
+		border: 2px dashed #ff66cc;
+}
+
+/*Changing the background of the divs*/
+#first {
+  background-color: #6cbd81;
+  width: auto;
+}
+#second {
+  background-color: #aa99cc;
+  width: 200px;
+  font-family: 'Bebas Neue', sans-serif;
+}
+
+#third {
+  background-color: #e6bea5;
+  width: 50%;
+}
+/*Rounded corners*/
+#rcorners1 {
+            border-radius: 25px;
+            background: #eb9696;
+            padding: 20px;
+            width: 200px;
+            height: 150px;
+         }
+         #rcorners2 {
+            border-radius: 25px;
+            border: 2px solid #ffff00;
+            padding: 20px; 
+            width: 200px;
+            height: 150px;
+         }
+         #rcorners3 {
+            border-radius: 25px;
+            background: url(/css/images/logo.png);
+            background-position: left top;
+            background-repeat: repeat;
+            padding: 20px; 
+            width: 200px;
+            height: 150px;
+         }
+/*Aligning text*/
+h4 {
+  text-align: left;
+}
+
+h3 {
+  text-align: right;
+}
+
+
+
